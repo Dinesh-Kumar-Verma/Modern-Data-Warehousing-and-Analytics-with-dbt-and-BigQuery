@@ -1,0 +1,9 @@
+dbt_bigquery_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: bigquery-with-dbt-476815
+      dataset: bronze        # or use "schema" — both work in BigQuery context
+      threads: 4             # parallel threads for model execution (≥1)  # optional: match your BigQuery dataset region
