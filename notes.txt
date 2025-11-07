@@ -1,8 +1,0 @@
-822363917653-deckbrsua5nbcvg8au1pvuoed5rndf11.apps.googleusercontent.com
-
-
-IN Google console
-setup the project and upload the dataset
-setup the servce account and Iam give the necessary permission to the service account
-the run the command
-gcloud auth application-default login

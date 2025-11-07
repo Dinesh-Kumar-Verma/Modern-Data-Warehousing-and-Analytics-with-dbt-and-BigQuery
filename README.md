@@ -97,6 +97,71 @@ BigQuery (Silver + Gold) → Power BI Dashboards
 ---
 
 ## 🗂️ Project Folder Structure
+```
+c:\Users\Dinesh Kumar Verma\Desktop\Modern_Data_Warehousing_and_Analytics_with_dbt_and_BigQuery\
+├───.gitignore
+├───.python-version
+├───LICENSE
+├───main.py
+├───pyproject.toml
+├───README.md
+├───uv.lock
+├───.git\...
+├───.venv\
+│   ├───Lib\...
+│   └───Scripts\...
+├───.vscode\
+│   └───settings.json
+├───dbt_bigquery_project\
+│   ├───.gitignore
+│   ├───.user.yml
+│   ├───dbt_project.yml
+│   ├───profiles.yml
+│   ├───README.md
+│   ├───analyses\
+│   │   ├───.gitkeep
+│   │   ├───cumulative_analysis.sql
+│   │   ├───data_segmentation.sql
+│   │   ├───date_range_exploration.sql
+│   │   ├───dimensions_exploration.sql
+│   │   ├───magnitude_analysis.sql
+│   │   ├───measures_exploration.sql
+│   │   ├───part_to_whole_analysis.sql
+│   │   ├───performance_analysis.sql
+│   │   ├───ranking_analysis.sql
+│   │   ├───report_customers.sql
+│   │   ├───report_products.sql
+│   │   └───sources.yml
+│   ├───dbt_packages\
+│   ├───logs\
+│   ├───macros\
+│   │   ├───.gitkeep
+│   │   └───generate_schema.sql
+│   ├───models\
+│   │   ├───bronze\
+│   │   ├───gold\
+│   │   │   ├───dim_customers.sql
+│   │   │   ├───dim_products.sql
+│   │   │   └───fact_sales.sql
+│   │   ├───silver\
+│   │   │   ├───crm_cust_info.sql
+│   │   │   ├───crm_prd_info.sql
+│   │   │   ├───crm_sales_details.sql
+│   │   │   ├───erp_cust_az12.sql
+│   │   │   ├───erp_loc_a101.sql
+│   │   │   └───erp_px_cat_g1v2.sql
+│   │   └───source\
+│   │       └───sources.yml
+│   ├───seeds\
+│   │   └───.gitkeep
+│   ├───snapshots\
+│   │   └───.gitkeep
+│   ├───target\
+|
+├───docs\
+│   └───Customer_Analytics_Powerbi_dashboard.png
+└───logs\
+```
 
 
 ---
