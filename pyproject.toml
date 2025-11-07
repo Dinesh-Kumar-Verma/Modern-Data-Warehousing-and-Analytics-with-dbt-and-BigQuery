@@ -1,7 +1,7 @@
 [project]
 name = "modern-data-warehousing-and-analytics-with-dbt-and-bigquery"
 version = "0.1.0"
-description = "Add your description here"
+description = "A project for modern data warehousing and analytics using dbt and BigQuery"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
